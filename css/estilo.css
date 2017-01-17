@@ -1,0 +1,18 @@
+img{
+  max-width: 100%; /*el ancho de la imagen siempre es de 100% con respecto al navegador. el max es para mantener la altura orginal*/
+  height: auto; /*altura en automático*/
+}
+
+.imagen{
+  width: 50%;
+  height: 700px;
+
+
+  background-image: url("../imagenes/paisaje.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%; /*responsiva*/
+  margin-right: auto;
+  margin-left: auto;
+
+
+}
